@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beba53afc14c86a4fbf61783aa1f213f, type: 3}
+  m_Name: 1B Half cell grid object SO
+  m_EditorClassIdentifier: 
+  objectName: Half cell
+  objectIcon: {fileID: 21300000, guid: f87bfe49058e76643b1b2c2977e97d25, type: 3}
+  buildableObjectUICategorySO: {fileID: 11400000, guid: aecf9a4b70e6b6e4e90a367cb57a401d, type: 2}
+  omschrijving: Halve cel module
+  levensduur: 20 jaar
+  recyclebaar: Goed recyclebaar
+  prijs: 125
+  beschikbareCertificering: Standaard certificering
+  certificeringPlaatjes: []
+  co2: 16 kg
+  materialType: 3
+  co2EmissionsKg: 16
+  priceEuros: 125
+  weightKg: 25
+  energyManufacturingKWh: 50
+  energyConsumptionKWh: 0
+  energyProductionKWh: 0
+  energyCO2EmissionKgPerYear: 0
+  energyCostEurosPerYear: 0
+  recyclabilityScore: 4
+  sustainabilityScore: 3
+  randomPrefabs:
+  - objectPrefab: {fileID: 568487557435578529, guid: 034e812f9193cdc49a70767c873141ce, type: 3}
+    ghostObjectPrefab: {fileID: 568487557435578529, guid: 034e812f9193cdc49a70767c873141ce, type: 3}
+    probability: 0
+  eachPlacementUseRandomPrefab: 1
+  validPlacementMaterial: {fileID: 2100000, guid: 281380b3d50e1eb46b869b8c8aa1307c, type: 2}
+  invalidPlacementMaterial: {fileID: 2100000, guid: 1fb75a46b45af6e49a32883c3bcb026a, type: 2}
+  setSpawnedObjectLayer: 1
+  spawnedObjectLayer:
+    serializedVersion: 2
+    m_Bits: 2147483648
+  setGridSystemAsParent: 1
+  useObjectGridCustomAlphaMaskScale: 0
+  objectGridCustomAlphaMaskScale: {x: 0, y: 0}
+  customSurfaceLayerMask:
+    serializedVersion: 2
+    m_Bits: 2147483648
+  raiseObjectWithVerticalGrids: 1
+  enablePlaceAndDeselect: 0
+  affectByBasicAreaDisablers: 1
+  affectByAreaDisablers: 1
+  affectByBasicAreaEnablers: 1
+  affectByAreaEnablers: 1
+  isObjectReplacable: 0
+  replacingObjectIgnoreCustomConditions: 1
+  isObjectSelectable: 1
+  isSelectedObjectRotatable: 1
+  isObjectDestructable: 1
+  isObjectMovable: 1
+  enableTerrainInteractions: 1
+  flattenTerrain: 0
+  flattenerSize: 0
+  removeTerrainDetails: 0
+  detailsRemoverSize: 0
+  paintTerrainTexture: 0
+  terrainTextureIndex: 0
+  painterBrushSize: 0
+  painterBrushType: 1
+  painterBrushOpacity: 1
+  painterBrushFallOff: 0
+  buildableGridObjectCategorySO: {fileID: 11400000, guid: 57b6526e116639044b2ce56372c10cfa, type: 2}
+  snapToTheClosestVerticalGridHeight: 0
+  minimumHeightThresholdPercentage: 25
+  freezeRotation: 0
+  fourDirectionalRotation: 0
+  placementType: 0
+  intervalBetweenEachPlacement: 0
+  spawnOnlyAtEndPoints: 0

@@ -1,0 +1,1183 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKEditor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKEditor.csproj",
+        "projectName": "AssistantCoreSDKEditor",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKEditor.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\AssistantCoreSDKEditor\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKRuntime.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKRuntime.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.TestRunner.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKRuntime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKRuntime.csproj",
+        "projectName": "AssistantCoreSDKRuntime",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKRuntime.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\AssistantCoreSDKRuntime\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Net.endel.nativewebsocket.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Net.endel.nativewebsocket.csproj",
+        "projectName": "Meta.Net.endel.nativewebsocket",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Net.endel.nativewebsocket.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\Meta.Net.endel.nativewebsocket\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.NLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.NLayer.csproj",
+        "projectName": "Meta.Voice.NLayer",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.NLayer.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\Meta.Voice.NLayer\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.Opus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.Opus.csproj",
+        "projectName": "Meta.Voice.Opus",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.Opus.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\Meta.Voice.Opus\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Common.csproj",
+        "projectName": "Meta.VoiceSDK.Mic.Common",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Common.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\Meta.VoiceSDK.Mic.Common\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Other.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Other.csproj",
+        "projectName": "Meta.VoiceSDK.Mic.Other",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Other.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\Meta.VoiceSDK.Mic.Other\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Common.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Common.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.WebGL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.WebGL.csproj",
+        "projectName": "Meta.VoiceSDK.Mic.WebGL",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.WebGL.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\Meta.VoiceSDK.Mic.WebGL\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Common.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Common.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.csproj",
+        "projectName": "Meta.WitAi",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\Meta.WitAi\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Net.endel.nativewebsocket.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Net.endel.nativewebsocket.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.NLayer.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.NLayer.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.Opus.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.Opus.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Common.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Common.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Other.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.Other.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.WebGL.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.VoiceSDK.Mic.WebGL.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Unity.InputSystem.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Unity.InputSystem.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.Runtime.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.Runtime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj",
+        "projectName": "Meta.WitAi.Lib",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.WitAi.Lib.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\Meta.WitAi.Lib\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Net.endel.nativewebsocket.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Net.endel.nativewebsocket.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.NLayer.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.NLayer.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.Opus.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Meta.Voice.Opus.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.Runtime.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.Runtime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Unity.InputSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Unity.InputSystem.csproj",
+        "projectName": "Unity.InputSystem",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Unity.InputSystem.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\Unity.InputSystem\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\UnityEditor.TestRunner\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\UnityEditor.UI\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.TestRunner.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\UnityEngine.TestRunner\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\UnityEngine.UI\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.csproj",
+        "projectName": "VoiceSDK.Telemetry",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\VoiceSDK.Telemetry\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKEditor.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKEditor.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKRuntime.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\AssistantCoreSDKRuntime.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.TestRunner.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.TestRunner.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.Runtime.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.Runtime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.Runtime.csproj",
+        "projectName": "VoiceSDK.Telemetry.Runtime",
+        "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\VoiceSDK.Telemetry.Runtime.csproj",
+        "packagesPath": "C:\\Users\\Kip41\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\Temp\\obj\\Debug\\VoiceSDK.Telemetry.Runtime\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kip41\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEditor.UI.csproj"
+              },
+              "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj": {
+                "projectPath": "C:\\Users\\Kip41\\Desktop\\Cleanproject\\XR DNA Builder\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

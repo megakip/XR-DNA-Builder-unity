@@ -1,0 +1,202 @@
+{
+    "gridSystemsSaveData": {
+        "gridSaveDataList": [
+            {
+                "gridUniqueID": "e019d6df-57c5-4ea4-a04b-e4a38d0c09bb",
+                "gridPosition": {
+                    "x": -18.040000915527345,
+                    "y": 5.320000171661377,
+                    "z": -18.049999237060548
+                },
+                "gridWidth": 20,
+                "gridLength": 20,
+                "cellSize": 2.0999999046325685,
+                "updateGridPositionRuntime": false,
+                "updateGridWidthAndLengthRuntime": true,
+                "gridOriginType": 1,
+                "buildableGridObjectSOList": [
+                    {
+                        "instanceID": 56998
+                    },
+                    {
+                        "instanceID": 57052
+                    },
+                    {
+                        "instanceID": 56770
+                    },
+                    {
+                        "instanceID": 56826
+                    },
+                    {
+                        "instanceID": 56856
+                    },
+                    {
+                        "instanceID": 56844
+                    },
+                    {
+                        "instanceID": 57392
+                    },
+                    {
+                        "instanceID": 57550
+                    },
+                    {
+                        "instanceID": 57444
+                    },
+                    {
+                        "instanceID": 57356
+                    },
+                    {
+                        "instanceID": 56880
+                    },
+                    {
+                        "instanceID": 56878
+                    },
+                    {
+                        "instanceID": 57046
+                    },
+                    {
+                        "instanceID": 56838
+                    },
+                    {
+                        "instanceID": 56926
+                    }
+                ],
+                "buildableEdgeObjectSOList": [
+                    {
+                        "instanceID": 57366
+                    },
+                    {
+                        "instanceID": 57054
+                    }
+                ],
+                "buildableCornerObjectSOList": [
+                    {
+                        "instanceID": 56936
+                    }
+                ],
+                "buildableFreeObjectSOList": [
+                    {
+                        "instanceID": 57558
+                    },
+                    {
+                        "instanceID": 57222
+                    },
+                    {
+                        "instanceID": 57576
+                    },
+                    {
+                        "instanceID": 57362
+                    },
+                    {
+                        "instanceID": 56924
+                    },
+                    {
+                        "instanceID": 56830
+                    }
+                ]
+            }
+        ]
+    },
+    "buildableObjectsSaveData": {
+        "builtObjectSaveDataList": [
+            {
+                "buildableObjectUniqueID": "7ebdd250-aea2-40d9-a262-57252b5b7a8c",
+                "gridAxis": 0,
+                "activateGizmos": true,
+                "lockAutoGenerationAndValues": true,
+                "objectScale": {
+                    "x": 4.199999809265137,
+                    "y": 3.1440000534057619,
+                    "z": 4.199999809265137
+                },
+                "objectCenter": {
+                    "x": 4.199999809265137,
+                    "y": 3.1440000534057619,
+                    "z": 4.199999809265137
+                },
+                "objectCustomPivot": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "debugCellSize": 2.0999999046325685,
+                "objectSizeRelativeToCellSize": {
+                    "x": 2,
+                    "y": 2
+                },
+                "activeSceneObject": false,
+                "sceneObjectBuildableCornerObjectSO": {
+                    "instanceID": 0
+                },
+                "sceneObjectFourDirectionalRotation": 0,
+                "sceneObjectEightDirectionalRotation": 0,
+                "sceneObjectFreeRotation": 0.0,
+                "verticalGridIndex": 1,
+                "isInstantiatedByGhostObject": false,
+                "occupiedGridSystemUniqueID": "e019d6df-57c5-4ea4-a04b-e4a38d0c09bb",
+                "occupiedVerticalGridIndex": 0,
+                "occupiedCellSize": 2.0999999046325685,
+                "buildableObjectSO": {
+                    "instanceID": 56826
+                },
+                "buildableObjectSORandomPrefab": {
+                    "objectPrefab": {
+                        "instanceID": 125292
+                    },
+                    "ghostObjectPrefab": {
+                        "instanceID": 125292
+                    },
+                    "probability": 0.0
+                },
+                "objectOriginWorldPosition": {
+                    "x": 15.55999755859375,
+                    "y": 5.320000171661377,
+                    "z": 9.25
+                },
+                "objectModifiedOriginWorldPosition": {
+                    "x": 15.55999755859375,
+                    "y": 5.320000171661377,
+                    "z": 9.25
+                },
+                "objectOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "objectOriginCellPosition": {
+                    "x": 16,
+                    "y": 13
+                },
+                "objectCellPositionList": [
+                    {
+                        "x": 16,
+                        "y": 13
+                    },
+                    {
+                        "x": 16,
+                        "y": 14
+                    },
+                    {
+                        "x": 17,
+                        "y": 13
+                    },
+                    {
+                        "x": 17,
+                        "y": 14
+                    }
+                ],
+                "cornerObjectOriginCellDirection": 0,
+                "objectFourDirectionalRotation": 0,
+                "objectEightDirectionalRotation": 0,
+                "objectFreeRotation": 0.0,
+                "isObjectFlipped": false,
+                "hitNormals": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "objectPlacementInvokedAsSecondaryPlacement": false
+            }
+        ]
+    }
+}

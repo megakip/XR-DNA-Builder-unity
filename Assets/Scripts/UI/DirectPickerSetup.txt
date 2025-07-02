@@ -1,0 +1,48 @@
+# EENVOUDIGE HANDLEIDING VOOR DE KLEURENKIEZER
+
+## Hoofdprobleem opgelost
+Dit is een vereenvoudigde implementatie die GARANDEERT dat kleuren direct worden toegepast op het object dat je selecteert. De kleurverandering gebeurt elke frame, zonder afhankelijkheid van events.
+
+## Stap 1: Verwijder oude scripts
+1. Verwijder deze scripts (als je ze nog hebt):
+   - SimpleColorManager.cs
+   - SpawnedObjectHandler.cs
+   - ColorableInteractable.cs
+   - ColorableInteractablesManager.cs
+   - AutoColorableSpawner.cs
+   - ColorPickerPopupExtension.cs
+
+## Stap 2: Voeg het nieuwe DirectColorChanger script toe
+1. Zoek je FlexibleColorPicker Canvas in de scene
+2. Voeg het DirectColorChanger script toe aan dit GameObject
+3. In de Inspector, stel de volgende referenties in:
+   - Sleep de FlexibleColorPicker naar het "Color Picker" veld
+   - Sleep de Canvas component naar het "Color Picker Canvas" veld
+   - Sleep je XRRayInteractor naar het "Ray Interactor" veld
+
+## Stap 3: Voeg knoppen toe aan je Color Picker Canvas
+1. Maak in je color picker canvas een UI Button met de naam "Apply" (Toepassen)
+2. In de Button component, onder "On Click()", klik op het + 
+3. Sleep het GameObject met de DirectColorChanger naar het objectveld
+4. Kies: DirectColorChanger -> ApplyAndClose()
+5. Doe hetzelfde voor een "Cancel" (Annuleren) knop, maar kies CancelAndClose()
+
+## Stap 4: Testen
+1. Start je scene
+2. Richt je ray op een object en klik om het te selecteren
+3. De color picker verschijnt
+4. Als je de kleur aanpast in de picker, ZAL het object DIRECT van kleur veranderen
+5. Klik op "Apply" om te bevestigen of "Cancel" om terug te gaan naar de originele kleur
+
+## Wat is het verschil?
+Dit script gebruikt een directe aanpak door:
+1. Elke frame de kleur van de color picker te controleren
+2. Als de kleur is veranderd, direct toe te passen op het object 
+3. De kleur wordt toegepast zonder afhankelijk te zijn van events
+4. Eenvoudiger code met minder mogelijke foutpunten
+
+## Probleemoplossing
+Als het nog steeds niet werkt:
+1. Controleer in de Console of je foutmeldingen ziet
+2. Zorg dat "Show Debug" is aangevinkt om te zien wat er gebeurt
+3. Controleer of het geselecteerde object een Renderer component heeft 

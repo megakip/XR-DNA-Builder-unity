@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "projectName": "Modular Housing VR Visualizer",
+    "version": "1.0.0",
+    "prdReference": "scripts/PRD.txt"
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Setup Basic VR Framework",
+      "description": "Initialize and configure the basic VR framework with OpenXR and XR Interaction Toolkit",
+      "status": "done",
+      "priority": "high",
+      "details": "Set up Unity project with OpenXR 1.14.0 and XR Interaction Toolkit 3.0.7. Configure basic VR settings and ensure proper hand tracking and controller support.",
+      "testStrategy": "Test VR initialization, hand tracking, and controller input in both editor and device."
+    },
+    {
+      "id": 2,
+      "title": "Implement Grid System",
+      "description": "Create the foundational grid system for block placement",
+      "status": "done",
+      "priority": "high",
+      "dependencies": [1],
+      "details": "Develop adjustable grid system with customizable density, snap points, and visual feedback. Include support for background image integration.",
+      "testStrategy": "Verify grid visualization, snap point functionality, and grid size adjustment."
+    },
+    {
+      "id": 3,
+      "title": "Develop Block Placement System",
+      "description": "Create the core block placement and manipulation functionality",
+      "status": "done",
+      "priority": "high",
+      "dependencies": [2],
+      "details": "Implement block selection, placement, and manipulation. Include physics-based interaction and snap-to-grid functionality.",
+      "testStrategy": "Test block placement accuracy, manipulation controls, and physics interactions."
+    },
+    {
+      "id": 4,
+      "title": "Create Context Menu System",
+      "description": "Implement the VR-friendly context menu system",
+      "status": "in_progress",
+      "priority": "high",
+      "dependencies": [1],
+      "details": "Develop intuitive menu system for block properties and actions. Include ray-casting interaction and dynamic positioning.",
+      "testStrategy": "Verify menu visibility, interaction accuracy, and usability in VR.",
+      "subtasks": [
+        {
+          "id": "4.1",
+          "title": "Menu Interaction System",
+          "description": "Implement reliable interaction system for menu elements",
+          "status": "pending",
+          "details": "Create robust ray-casting system for menu interaction that works consistently with both hand tracking and controllers. Implement proper hit detection and visual feedback."
+        },
+        {
+          "id": "4.2",
+          "title": "Menu UI Components",
+          "description": "Design and implement core menu UI components",
+          "status": "pending",
+          "details": "Create reusable UI components for the menu system including buttons, sliders, and property displays. Ensure proper scaling and visibility in VR."
+        },
+        {
+          "id": "4.3",
+          "title": "Context-Sensitive Menu Logic",
+          "description": "Implement logic for showing/hiding appropriate menu options",
+          "status": "pending",
+          "details": "Develop system to determine which menu options to show based on the selected object and current context. Include proper state management."
+        },
+        {
+          "id": "4.4",
+          "title": "Menu Positioning System",
+          "description": "Create system for optimal menu positioning",
+          "status": "pending",
+          "details": "Implement logic to position menus in comfortable viewing positions relative to the user and selected objects. Include collision avoidance with other objects."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Implement Environmental Impact System",
+      "description": "Add sustainability metrics and material properties",
+      "status": "pending",
+      "priority": "medium",
+      "dependencies": [3],
+      "details": "Create system for calculating and displaying CO2 emissions, material lifespan, and cost estimates.",
+      "testStrategy": "Validate calculation accuracy and real-time updates of environmental metrics."
+    },
+    {
+      "id": 6,
+      "title": "Develop Presentation Mode",
+      "description": "Implement external display streaming functionality",
+      "status": "pending",
+      "priority": "medium",
+      "dependencies": [3, 4],
+      "details": "Create system for streaming VR view to external displays with presentation controls.",
+      "testStrategy": "Test streaming performance, display quality, and presentation controls."
+    },
+    {
+      "id": 7,
+      "title": "Performance Optimization",
+      "description": "Optimize application performance for VR",
+      "status": "pending",
+      "priority": "high",
+      "dependencies": [3, 4, 5, 6],
+      "details": "Implement LOD system, optimize rendering, and ensure stable frame rate.",
+      "testStrategy": "Monitor frame rate, memory usage, and overall performance metrics."
+    }
+  ]
+} 

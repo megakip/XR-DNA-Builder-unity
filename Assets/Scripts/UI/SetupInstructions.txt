@@ -1,0 +1,50 @@
+# Instructies voor het instellen van de Color Picker
+
+## Voorbereiding
+1. Zorg ervoor dat je de nieuwe scripts hebt toegevoegd:
+   - SimpleColorManager.cs
+   - SpawnedObjectHandler.cs
+
+2. Je hebt NIET meer nodig:
+   - ColorableInteractable.cs
+   - ColorableInteractablesManager.cs
+   - AutoColorableSpawner.cs
+   - ColorPickerPopupExtension.cs
+
+## Stap 1: Stel de SimpleColorManager in
+1. Zoek je FlexibleColorPicker Canvas in de scene.
+2. Voeg het SimpleColorManager script toe aan dit GameObject.
+3. Sleep de FlexibleColorPicker component naar het "Color Picker" veld van SimpleColorManager.
+4. Sleep het Canvas component naar het "Color Picker Canvas" veld.
+5. Zorg dat "Apply In Realtime" aangevinkt is.
+6. Zoek je XRRayInteractor en sleep deze naar het "Ray Interactor" veld.
+
+## Stap 2: Voeg de knoppen toe om de kleuren toe te passen
+1. Maak in je color picker canvas een UI Button met de naam "Apply".
+2. In de Button component, klik op het + onder "On Click()" om een actie toe te voegen.
+3. Sleep het GameObject met de SimpleColorManager naar het objectveld.
+4. Kies in het functiemenu: SimpleColorManager -> ApplyAndClose()
+5. Doe hetzelfde voor een "Cancel" knop, maar kies nu de functie CancelAndClose().
+
+## Stap 3: Stel de SpawnedObjectHandler in
+1. Maak een nieuw leeg GameObject in je scene (bijv. "ColorManager").
+2. Voeg het SpawnedObjectHandler script toe aan dit GameObject.
+3. Sleep de SimpleColorManager naar het "Color Manager" veld.
+4. Zorg dat "Auto Color Spawned Objects" en "Use Last Selected Color" aangevinkt zijn.
+
+## Stap 4: Test de setup
+1. Start de scene.
+2. Richt je ray op een object en klik om het te selecteren.
+3. De color picker zou moeten verschijnen.
+4. Wijzig de kleur in de picker - het object zou DIRECT van kleur moeten veranderen.
+5. Klik op "Apply" om te bevestigen of "Cancel" om terug te gaan naar de originele kleur.
+
+## Problemen oplossen:
+Als het object niet direct van kleur verandert wanneer je de kleur wijzigt:
+1. Controleer in de console of er foutmeldingen zijn.
+2. Controleer of de event listener voor onColorChange is toegevoegd aan de FlexibleColorPicker.
+3. Zorg ervoor dat de geselecteerde object een Renderer component heeft.
+4. Zorg ervoor dat andere scripts geen conflicten veroorzaken met deze functie.
+
+## Voor gespawnde objecten:
+Als je objecten spawnt, zorg ervoor dat de spawner de functie OnObjectSpawned(GameObject) aanroept op de SpawnedObjectHandler, of dat de objecten een Collider en Rigidbody hebben zodat ze automatisch gedetecteerd worden. 
